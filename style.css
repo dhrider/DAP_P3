@@ -1,0 +1,70 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: auto;
+}
+
+
+#background {
+    background: #306A9E;
+    width: 100%;
+    height: 100%;
+}
+
+#page {
+    background: #306A9E;
+    height: 100%;
+    padding: 0;
+}
+
+nav {
+    background: #0C4170;
+    color: #78A5CD;
+}
+
+.navbar {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-nav > li > a {
+    color: #78A5CD;
+}
+
+.icon-bar {
+    color: #78A5CD;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+#titreEntete {
+    margin-top: 2.5%;
+}
+
+#imageAccueil {
+    width: 100%;
+    height: 100%;
+}
+
+#entete, #corps, #pied {
+    margin: 0;
+}
