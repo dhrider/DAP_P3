@@ -6,7 +6,19 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    background: #306A9E;
+}
+
+body::after {
+    content: "";
+    background: url("image/72.jpg") center;
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 #background {
@@ -42,6 +54,13 @@ nav {
     text-align: center;
 }
 
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
 .navbar-nav > li {
     display: inline-block;
     float:none;
@@ -51,12 +70,12 @@ nav {
     color: #78A5CD;
 }
 
-.icon-bar {
-    color: #78A5CD;
-}
-
 #logo {
     margin-right: 10px;
+}
+
+.icon-bar {
+    background-color: #78A5CD;
 }
 
 #titreEntete {
